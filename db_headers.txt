@@ -1,1 +1,0 @@
-date, hr_in, min_in, hr_out, min_out
