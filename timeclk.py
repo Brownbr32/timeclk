@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/python3 -B
 import datetime
 import sqlite3
 import sys
