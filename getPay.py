@@ -29,3 +29,4 @@ for whichTable in allTables:
     conn = sqlite3.connect(pa.th)
     wage += getWage(conn,whichTable)
 print("For your good behavior, you get a bonus of: \n${0:3.2f}".format(wage))
+print("That gives you a spending allowance of: \n${0:3.2f}".format(wage/4))

@@ -24,4 +24,5 @@ for whichTable in allNames:
     print(addCol.format(whichTable,sys.argv[1],sys.argv[2]))
     print(" ")
     c.execute(addCol.format(whichTable,sys.argv[1],sys.argv[2]))
+c.commit()
 
